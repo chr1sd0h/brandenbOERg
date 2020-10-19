@@ -1,5 +1,6 @@
 --- 
-title: "Auf dem Weg zu offenen Bildungsressourcen (OER) – Handlungsempfehlungen zur Implementierung von OER an Brandenburger Hochschulen"
+title: "Auf dem Weg zu offenen Bildungsressourcen (OER)"
+subtitle: "Handlungsempfehlungen zur Implementierung von OER an Brandenburger Hochschulen"
 author: "BrandenbOERg"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site

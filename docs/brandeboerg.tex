@@ -36,7 +36,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Auf dem Weg zu offenen Bildungsressourcen (OER) -- Handlungsempfehlungen zur Implementierung von OER an Brandenburger Hochschulen},
+  pdftitle={Auf dem Weg zu offenen Bildungsressourcen (OER)},
   pdfauthor={BrandenbOERg},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
@@ -111,7 +111,14 @@
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
-\title{Auf dem Weg zu offenen Bildungsressourcen (OER) -- Handlungsempfehlungen zur Implementierung von OER an Brandenburger Hochschulen}
+\title{Auf dem Weg zu offenen Bildungsressourcen (OER)}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Handlungsempfehlungen zur Implementierung von OER an Brandenburger Hochschulen}
 \author{BrandenbOERg}
 \date{2020-10-19}
 
